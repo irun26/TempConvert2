@@ -93,6 +93,9 @@
 		CB8608BF203090C50043FF69 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					com.apple.gamecenter.Leaderboard,
+				);
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Jimson Vedua";

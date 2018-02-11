@@ -40,8 +40,8 @@
                                 <color key="textColor" red="1" green="0.63001669429999996" blue="0.075937530690000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZZc-rC-zV2">
-                                <rect key="frame" x="16" y="205.5" width="343" height="441.5"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZZc-rC-zV2">
+                                <rect key="frame" x="16" y="320" width="343" height="327"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -57,7 +57,6 @@
                             <constraint firstItem="udc-tW-lvB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="XuD-D0-Qhm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QMj-5u-7hC" secondAttribute="trailing" constant="120" id="cwK-t9-670"/>
                             <constraint firstItem="QMj-5u-7hC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="fJQ-v9-YXV"/>
-                            <constraint firstItem="ZZc-rC-zV2" firstAttribute="top" secondItem="QMj-5u-7hC" secondAttribute="bottom" constant="8" symbolic="YES" id="g92-lx-21v"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZZc-rC-zV2" secondAttribute="bottom" constant="20" id="hC8-oi-5Ik"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wrh-AM-SG3" secondAttribute="trailing" constant="120" id="pjb-ZV-BWN"/>
                         </constraints>
