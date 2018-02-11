@@ -18,38 +18,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udc-tW-lvB">
-                                <rect key="frame" x="112" y="76" width="127" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udc-tW-lvB">
+                                <rect key="frame" x="120" y="60" width="135" height="30"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Test Button Yellow"/>
                                 <connections>
                                     <action selector="TestButtonYellow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="icc-sp-mUr"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="textfield holder" textAlignment="center" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="Wrh-AM-SG3">
-                                <rect key="frame" x="127" y="146" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="textfield holder" textAlignment="center" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="Wrh-AM-SG3">
+                                <rect key="frame" x="120" y="130" width="135" height="21"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="default text" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMj-5u-7hC">
-                                <rect key="frame" x="129" y="202" width="93" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="default text" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMj-5u-7hC">
+                                <rect key="frame" x="120" y="177" width="135" height="20.5"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.63001669429999996" blue="0.075937530690000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZZc-rC-zV2">
+                                <rect key="frame" x="16" y="205.5" width="343" height="441.5"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Wrh-AM-SG3" firstAttribute="top" secondItem="udc-tW-lvB" secondAttribute="bottom" constant="40" id="2N8-ZS-k6O"/>
+                            <constraint firstItem="udc-tW-lvB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="7Iu-N1-Vgg"/>
+                            <constraint firstItem="ZZc-rC-zV2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="9Yc-d0-Tte"/>
+                            <constraint firstItem="ZZc-rC-zV2" firstAttribute="top" secondItem="QMj-5u-7hC" secondAttribute="bottom" constant="50" id="KBH-Al-qt6"/>
+                            <constraint firstItem="Wrh-AM-SG3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="KEA-I0-pmN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="udc-tW-lvB" secondAttribute="trailing" constant="120" id="L6t-c5-FrI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZZc-rC-zV2" secondAttribute="trailing" constant="16" id="QQs-vU-dyM"/>
+                            <constraint firstItem="QMj-5u-7hC" firstAttribute="top" secondItem="Wrh-AM-SG3" secondAttribute="bottom" constant="26" id="RDY-vA-FLf"/>
+                            <constraint firstItem="udc-tW-lvB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="XuD-D0-Qhm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QMj-5u-7hC" secondAttribute="trailing" constant="120" id="cwK-t9-670"/>
+                            <constraint firstItem="QMj-5u-7hC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="fJQ-v9-YXV"/>
+                            <constraint firstItem="ZZc-rC-zV2" firstAttribute="top" secondItem="QMj-5u-7hC" secondAttribute="bottom" constant="8" symbolic="YES" id="g92-lx-21v"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZZc-rC-zV2" secondAttribute="bottom" constant="20" id="hC8-oi-5Ik"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wrh-AM-SG3" secondAttribute="trailing" constant="120" id="pjb-ZV-BWN"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="greyLabel" destination="QMj-5u-7hC" id="T0T-gw-64N"/>
                         <outlet property="inputTextfield" destination="Wrh-AM-SG3" id="nq7-6M-nvm"/>
+                        <outlet property="pictureDisplayer" destination="ZZc-rC-zV2" id="h0p-tH-pZm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var inputTextfield: UITextField!
     @IBOutlet weak var greyLabel: UILabel!
+    @IBOutlet weak var pictureDisplayer: UIImageView!
     
     @IBAction func TestButtonYellow(_ sender: Any) {
 
@@ -41,7 +42,8 @@ class ViewController: UIViewController {
             greyLabel.textColor = UIColor.cyan
         }
 
-            
+        pictureDisplayer.image = UIImage(named: "pic1")
+        
             
     }
     
