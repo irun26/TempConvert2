@@ -25,7 +25,7 @@ class ViewController: UIViewController {
             
             print("1 input textfield is \(String(describing: inputTextfield.text ?? nil))")
             greyLabel.text = inputTextfield.text
-            
+            greyLabel.textColor = UIColor.green
         } else {
             view.backgroundColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
             print("background is now red")
@@ -38,6 +38,7 @@ class ViewController: UIViewController {
             print("2 input textfield is \(String(describing: inputTextfield.text ?? nil))")
 
             greyLabel.text = inputTextfield.text
+            greyLabel.textColor = UIColor.cyan
         }
 
             
